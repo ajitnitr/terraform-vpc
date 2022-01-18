@@ -4,3 +4,4 @@ resource "aws_vpc_peering_connection" "peer-connection" {
   vpc_id        = data.aws_vpc.default.id
   auto_accept   = true
 }
+
